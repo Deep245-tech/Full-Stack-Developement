@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="first.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="Navbar">
+    <div class="Navbar-header" style="height: 50px;">
+      <div class="Container">
+        <div class="row">
+          <div class="col-md-6">
+            <a href="/" style="color: inherit; text-decoration: none;">
+              <div class="Navbar-svg"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 206 46">
+                  <path
+                    d="M151.312 36V32.1562L154.711 31.4531V15.2109L151.055 14.5078V10.6406H160.617L160.922 14.2969C161.766 13 162.812 11.9922 164.062 11.2734C165.328 10.5391 166.758 10.1719 168.352 10.1719C170.898 10.1719 172.891 10.9766 174.328 12.5859C175.781 14.1797 176.508 16.6875 176.508 20.1094V31.4531L179.906 32.1562V36H166.992V32.1562L170.109 31.4531V20.1562C170.109 18.3438 169.75 17.0625 169.031 16.3125C168.312 15.5469 167.242 15.1641 165.82 15.1641C164.758 15.1641 163.828 15.3984 163.031 15.8672C162.25 16.3203 161.602 16.9688 161.086 17.8125V31.4531L164.086 32.1562V36H151.312ZM182.906 36V32.1328L196.242 15.1641H188.836L188.109 19.4766H183.422V10.6406H203.906V14.7656L191.133 31.3828H199.078L200.016 26.8125H204.539V36H182.906Z"
+                    fill="currentColor"></path>
+                  <path
+                    d="M28.3986 13.1057C28.3986 16.3164 27.2888 18.8964 25.0692 20.8457C22.8496 22.7951 19.8183 23.774 15.9752 23.7823H10.3031V31.2246L13.9012 31.9126V35.9441H0V31.9126L3.57291 31.2246V7.14016L0 6.44796V2.39544H15.9752C19.8183 2.39544 22.8496 3.37431 25.0692 5.33205C27.2888 7.28979 28.3986 9.88099 28.3986 13.1057ZM21.681 13.1518C21.734 11.6836 21.2182 10.2515 20.2409 9.15383C19.2808 8.10225 17.8632 7.57645 15.9878 7.57645H10.3031V18.5887H15.9752C17.8506 18.5887 19.2682 18.0783 20.2283 17.0575C21.2042 15.9958 21.7217 14.5924 21.6684 13.1518H21.681ZM50.8311 14.0957C52.9135 16.4618 53.9547 19.5103 53.9547 23.2412V23.7236C53.9547 27.4685 52.9135 30.5212 50.8311 32.8816C48.7486 35.2421 45.8782 36.4196 42.22 36.414C38.5169 36.414 35.6241 35.2365 33.5417 32.8816C31.4592 30.5268 30.418 27.4741 30.418 23.7236V23.2412C30.4096 19.5299 31.4467 16.4856 33.5291 14.1083C35.6116 11.7311 38.4889 10.5424 42.1612 10.5424C45.8503 10.5424 48.736 11.7269 50.8185 14.0957H50.8311ZM47.2456 23.2412C47.2456 21.0317 46.8383 19.2264 46.0238 17.8252C45.2093 16.424 43.926 15.7248 42.1738 15.7276C40.4244 15.7276 39.1495 16.4268 38.349 17.8252C37.5485 19.2236 37.1482 21.0289 37.1482 23.2412V23.7236C37.1482 25.9974 37.5485 27.8153 38.349 29.1773C39.1495 30.5393 40.4398 31.2274 42.22 31.2413C43.9581 31.2413 45.2303 30.5491 46.0364 29.1647C46.8425 27.7803 47.2456 25.9624 47.2456 23.711V23.2412ZM66.0338 0H55.7055V4.05252L59.3036 4.74472V31.212L56.054 31.9V35.9315H69.2834V31.9L66.0338 31.212V0ZM81.2491 0H74.5315V5.03419H81.2491V0ZM81.2491 11.0081H70.9208V15.0648L74.5189 15.7528V31.212L71.2693 31.9V35.9315H84.4777V31.9L81.2491 31.212V11.0081ZM102.367 27.4112C102.391 27.9275 102.307 28.4432 102.12 28.9251C101.932 29.407 101.646 29.8444 101.28 30.2093C100.893 30.5661 100.44 30.8425 99.9453 31.0226C99.4509 31.2026 98.9256 31.2827 98.3999 31.2581C96.5862 31.2581 95.3182 30.5785 94.5961 29.2193C93.8739 27.86 93.5129 26.0673 93.5129 23.8411V23.1489C93.5129 20.9674 93.9047 19.1859 94.6884 17.8042C95.4722 16.4226 96.8171 15.7318 98.7232 15.7318C99.2958 15.7232 99.865 15.8199 100.403 16.0171C100.861 16.1857 101.287 16.4311 101.662 16.7429L102.771 20.636H108.229L108.136 13.9825C107.012 12.8555 105.649 11.9953 104.148 11.4654C102.406 10.8311 100.564 10.5184 98.7106 10.5424C94.8844 10.5424 91.937 11.7255 89.8686 14.0915C87.8001 16.4576 86.7673 19.4753 86.7701 23.1447V23.8369C86.7701 27.5202 87.7763 30.5365 89.7888 32.8858C91.8013 35.2351 94.6674 36.4098 98.3873 36.4098C101.293 36.4098 103.721 35.5624 105.672 33.8675C106.601 33.1042 107.341 32.1361 107.833 31.0393C108.326 29.9425 108.557 28.7466 108.51 27.5454L108.438 27.407L102.367 27.4112ZM125.165 11.0081V15.0648L127.978 15.5221L124.006 27.2937L123.868 27.2727L123.519 25.473L120.11 15.5221L122.898 15.0648V11.0081H110.697V15.0648L113.027 15.4298L120.933 35.9567L120.173 37.8445C119.875 38.6218 119.401 39.3196 118.788 39.8834C118.062 40.4728 117.139 40.7652 116.206 40.7014C116.006 40.6983 115.807 40.6829 115.609 40.6553L114.938 40.563L114.157 45.4671C114.833 45.6391 115.416 45.7692 115.92 45.8615C116.448 45.9561 116.983 46.0025 117.52 45.9999C119.949 45.9999 121.769 45.393 122.978 44.1792C124.236 42.8841 125.22 41.3489 125.871 39.6652L135.04 15.4088L137.37 15.0648V11.0081H125.165ZM145.234 28.5187C145.724 29.0088 146 29.6735 146 30.3666C146 31.0597 145.724 31.7245 145.234 32.2146L141.455 35.9651C141.431 35.9902 141.401 36.0102 141.369 36.0238C141.336 36.0374 141.302 36.0444 141.266 36.0444C141.231 36.0444 141.196 36.0374 141.164 36.0238C141.132 36.0102 141.102 35.9902 141.077 35.9651L137.299 32.1894C137.056 31.947 136.864 31.6593 136.733 31.3425C136.601 31.0258 136.534 30.6864 136.534 30.3436C136.534 30.0008 136.601 29.6613 136.733 29.3446C136.864 29.0279 137.056 28.7401 137.299 28.4977C137.541 28.2553 137.829 28.063 138.146 27.9318C138.463 27.8006 138.803 27.7331 139.146 27.7331C139.489 27.7331 139.829 27.8006 140.146 27.9318C140.463 28.063 140.751 28.2553 140.994 28.4977L141.254 28.7578L141.514 28.5019C141.757 28.2594 142.045 28.067 142.362 27.9357C142.679 27.8044 143.018 27.7369 143.361 27.7369C143.705 27.7369 144.044 27.8044 144.361 27.9357C144.678 28.067 144.966 28.2594 145.209 28.5019L145.234 28.5187Z"
+                    fill="currentColor"></path>
+                </svg>
+                <hr class="Navbar-separator">
+                <p>NZ Election 2023</p>
+              </div>
+            </a>
+  
+          </div>
+          <div class="col-md-6"><a href="https://www.thespinoff.co.nz" class="Navbar-link" aria-label="The Spinoff">
+              <div class="Visibility"><svg width="172" height="24" viewBox="0 0 172 24" fill="none"
+                  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <rect x="0.68457" width="171.316" height="24" fill="url(#pattern0)"></rect>
+                  <defs>
+                    <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                      <use xlink:href="#image0_667_5980" transform="scale(0.000921659 0.00657895)"></use>
+                    </pattern>
+                    <image id="image0_667_5980" width="1085" height="152"
+                      xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABD0AAACYCAYAAADnapI2AAAACXBIWXMAABYlAAAWJQFJUiTwAAActUlEQVR4nO3d/1Ucx5YH8PYe/T/zIgBHAC8CxhEIR8AoAuEIQBEIRSAUgVEEgggMEXiIYIcItKet26s2AjQ/eqqquz+fczhv1+c9M/QMdPW37r31y9evXysAAKBos3hxy6qqbr1VAKt5VVXVflVV8y2v16KqqkvXfGWz1o1rU9fxRTr78VWt+f7dxgLFIgUAaGvWFs26ovnPw6qqJmtcqftYj1exPmzWHM0aBGC0mtDjbMsLcCP0WMusg2teCT12Zj8WG4fxXk2rqjro8Js9xCJk0VqQWJQAwLBNW2uL2QbBxkv24qt29Oi/9xBrxlubZsAYvfKuwz+LkOPWImRvx5dkEguS+uuk9c/vWouRayEIAPReE3IcPxFGpFKvO17HV7Pp9jnWGletChGAQRJ6MFb7sQCZd1zFsY2D+Hob/467qKCyIAGA/qjXGKexztj1RsqmmhDkvfUGMHT/4x1mZOaxs/F33OhLCTyechCv8e8oST2NqhQAoDztNcbbggOPx9rrjasIawAGo8+hx3lVVV+3/Dov4Odg96bxXtftIh8zlpduo1mQ/G/sxmw7CBcA2N4Q1hhtdfXHn1HxYbMFGASVHgxZsxBZRA9rV8PCcqvngHyJ3SThBwCkV68xLga4xmjsxWbLItZSwg+gt8z0YKjOY4diaIuQtqMIP27i5zWN/bt563jhoWuf/OMzsJ4ujg9f1RArC1Ncv2U8WI5Bqs+IKtftTGN9MfQ1RmMSoc5p/C5eGLS+tZT3Hsr9m7cf61USEHowNLNo/+hLH20X2uHHaTwEj918ACXG27h74khkw+l+1NXx4asYauiR4votYs7A0Pkslm8eD/1jCDsea8KPeaw1xvA7uSsp7z2UHXr4HCSivYWhmMYN+MvIAo+2+iH/r1iQKUMdt4PW0YR/xnC6ZfyOnMYRitAXlyOq3KJMh1FJ93GkgUfbXtxXrv1eAn0h9GAIZrGT/dq7+Y+3cT1MX6dt0jqe8K/YPb8QgNADkwg+IIfz+Js55urBpxy1TpYDKJrQg747HXl1x3OanRhVHzxnLwKyv1qD6uzaUaojD1ckdhgP9crPnzeJIF3VB1A0oQd9dhk3W573NhYjdvN5yV4s7P/WSkDBBHOkMo9754ErvpIjFaZAyYQe9NE0bq4n3r2VHMTizYRoVnES4YedO0qjzYUULs3u2MikVWEKUBShB30ztfuykUks4kztZ1VHrcoPLVKUQpsLu2JDpRtvY2i2+wZQDKEHfSLw2N6ZnVLWdBIzP5QtUwptLnTt0PqiU6/jego+gCIIPegLgUd3TgQfrKkpW7Z7Rwm0udAlgcduHETljJliQHZdhR51uenXxF9dTNM+y/C6u3rtY3NpQdIpwQebeG0RSyG0udCFJvAwv2M39gxTB0qg0oM+uIiHLbol+GATewbjUghtLmxD4JHGRPAB5Cb0oHTHMRSL3RB8sIlmMK7gg5y0ubApgUdagg8gK6EHJZta0CZxokycDQk+yE2bC+sSeOQxMdwUyEXoQckuLUqSee90DjYk+CA3bS6sairwyErwAWQh9KBUx+Z4JHfpwYENfRSakZE2F1Yh8CjDQZwEBpDMK5eaAk1jeGnp7qqqWr7wGg97triaxEJEzy2bqB86Z3G6C6TWtLn04d5BHhdOgSvGUbwfWtOAJIQelOg0TogoxUPsDl3HA93tT8KOx/bjaxZfJYchB1Eqfl7Aa6Ffmt12oRm5nLf+TkPbacyv6qOb1mtexud71vpn056GOW/jZ1GlBeyc0IPSTAtJ/h/iRnzZwQJ6EV/XrX82i3aA48ICntpZVHx4cGBdB3bvyEjwxlNmMbeqdA+t0O66gw2Wox78zBetzSSAnTHTg9KcZq6CuK+q6k0rfNnVjfg6/v31AuX3Rzs5JbDzwqbeeugkowOVarRMC58fUQcdH6qq+i1e63GrYmmdwKNqba6cR+jxS6wvPsX3KZF5PEASQg9Kk2uHuAk79jPcgK9igfJbQeHHgd16tmCuAjmdCd4IpZ4Cd/Nog+V6hf/NJq7idK39+H73u/2xNiKoBHZO6EFJ5pkWJx9igZx7t+G6FX6UsDA5d6wcGzpyjC2Z2T2mxFPgbuIeP0v8GV22Tmj7vcDw4+zRnBKATgk9KEnqh6SH2Pk43aCMdJeuY2HyIfPrmKj2YAt27sjJ7vG4TQsLvu5bYceuqjpWddWq/Cip7UWFILAzQg9KsZ946NZDhp2WdZ3GIinnoqSZOwLr2lPtQWbaXMarpLaWd3EfzR12PHZZyAZLQ1AJ7IzTWyjFccLX0QQefZgWfh2L9qtMR9JNYhHi4fVpD5k+R/sFnvrzlFNtBmTmNJfxmRXS1nIfa5uS1xrL1kyREoKi5p6xyPw6gIERelCKlKHHLk9l2YVFqyS2j2fxD9lt5j7kaTzQNV+zwsKQg3hdjiMkl2b32A7yeJQQtH6OzYKSWmdfcpV5g6UxiTaXlGvCoftl7BeAf4z+c6C9hVKkam353NOd52U80H5O/H3fqPIo2jLCsIvWhP5fq6r6o6qqu0JeuM8PuWlzGY/TAoLfT/HQ3pfAo9FssHzK/DpeG2oKdE3oQQlS3dweev4AtozXn+Jhtr5W/9Wa0EuLCEEOCzkGWehBCfwtG75pARU9fd8oaNYZuYMPlVlAp15F2fFvLmvvDKnfMVXocdHDnZfHlglaXe7ie/T9WvH9GORmaG+OHdCJFhcKoM1l+E4zz6R4M6BwrQluTjJ9/6NCTroBBuJVqzwacklVdjyU49CWreFoXS/wPjimdpDaA3FTnpLUKH2YH+NwFr8DPovDM8187/pjgNVEuYOPc20uQFe0t1CCFEeifh5Y5cKi40FfD7FLJfAYrmXGfm0LV0qhzWWYclZ5fBrQpspj84wtkkfuHUBXhB6UIMWk8KsBvtP17v27Dv499632B4YvxyI2R3UJPOVAi8vg5KzyuBnB3KLjjIOx/a4CnRB6kNs00fcfajnz+ZaLkRvzFkbpOKp7UrJjRymc5jIsx5mqPB5GcrRqM9w09T2jisA8RTUwMHBCD3JLtfAc8kP9prtMHwwsHa1lhp1RC1dKcpkwdGe3clUD9PFY2k3dZrzOqj2ArQk9GIMcuxMp3a7Z5mJ+B1U89N0nvBJCD0qizWUYZplOpXo3wkMALmI+WmrHAkpgW0IPxmAMrRsXKz7Amt9BW8qHPu0tlOatz2Xv5ZincT/iwOw0w0bSZCRtRMAOCT0YgzHsMC9XWIR9Nr+DR4Y44BfWoc2lv6aZjlMd+uDSlywyBT4qU4GtCD0YgxylrzlcvjDU9N3I+o9ZzTLhVH6DIynRnjaX3soRPnweYVvLY6tWlnbpQIsksA2hB2Mxlp28x7shdRnq7xb1vCBV5U+O0xVgFdpc+ilH6KHi4Jsc137MFTbAloQejMVYFrTXcQxtFTv4My0M/MTCBQJtLj2zH7v/KX3y9/L/tdcaqQg9gI0JPRiLMQ3BOo8S3Jn5HazAIh60ufRNjnu6z8e/pb4ee1pcgE0JPcgt1YyJMR15dm1+B2sQesA32lz6I/WuvyqPH10nnAnVcIoLsBGhB7mlnCegFxeAl2hzKd80Q2vLRR8vVAKpr4vQA9iI0IMSpDrz/cwuHvzAqSrwnTaX8qV+8L3TKvqsy4RruNqRUBLYxP/EQ+BXX737GtKiLOVi4spDHvyLBST8mzaXsqV+b1R5vOwy8ffzuwmsTaUHJUgZekyiD1XwAd8YDAc/0uZSrtQPvU5Ae5nQAyie0IMSpC4brYOPv5Qwwz9SBYD3LjcbepfhwmlzKdN+vDepfDIU/KduEw80FXoAaxN6UILrTK/hLKaxu4EyVvsJBwI6+YBNXWcKPrS5lEeVR5lSXqfUQ2yBARB6UIJFxl3gesfoSyyqUx+BB7mlHAhot5RtnGc4HrPS5lKc1K2puTZl+iZ1OCSMBNYi9KAUuXdT6ongHyOAuTDngJFIeYyz0w/YVo5gei/DzAKelzL0uBHWruw28eaV0ANYi9CDUpSyqNyLkua/4yZ+augpAzVP3BuvvYVt3WZqc3md4ZhUnnaU8LpobVlPyqoY6zJgLUIPSpF6l2AVdd/o+xh6uohg5lipMwMwzTCkUaUHXdDmMl5aW8qW8nqpxgXWIvSgJCWfhV/viJ9UVfVnVVX/Gzf3cyWW9NRl4iqPSuhBh3K0uUy0uWSX+kHX36z1pAw9DDMF1iL0oCT1gvKhJ+/IUZz+Ug9B/SoEoUcuo1w/pRsfEDqkzWWcUs/zYD2LxGs4LS7AyoQelGRZeLXHSx6HILfxs2iHoRTTCDxOMrweZeJ0TZvL+KR8yPU3azMpq2P8HgIrE3pQmoseVXu85CAGojbtMM1MkLleVDKYxSI+R+BRGQjIjhxnuF9oc8kn5UOuwcubSRkWqawFVib0oDTLxMdoptLMBPkYJ8Ms40HQ6TDs0n48oH3J2AN9rzeeHVlkGMhbaXPJJuXJLf5mbUalR3m+DviL1Y3+cyD0oESXI+inncTCuTkdpglBVIKwrWl8jq4jYMtV3dFQ5cEuXWS6X2hzGTahx2aWCb+XDSNgZa9cKgp1HLt4k5G8QU0I0gyYvI+HxWsPjfzELIKyw/i/S5tq39c5PfTHPB5SU94vJq1jzNm9lA+4pR2f3ydmoQBFEnpQqmUsJr+M9B3ai5kgb+P//xzhx1XinRRedphpkbef4cjZTdzojSeBps3lfeKL3bS5CKZ3zzwPHlPpAaxM6EHJ6ofJNzEHY+yaKpCPrQDEML38Jon7zPtGlQepNKdlpf59vIwQUhg9HN7L7dwk+j0cSyUw0AEzPShdvaD84F36lyb8WMb1sdtBie7tgJPY3Gkug5XypA7zPAAG5lWU8b3r4Y816yBJvulx/+GY+iab01ze/uS/NzaTGFJ5Ep/lS4tvCjL3ZpDYIj53fyb+vtpc4LtFwoqrqcocYBWvMh75tq3zDv6oXvf0Zx+j09h90erytKP4Oo8v4Qc59TlQpt+uogXwdeKfQpvLcHgPt5NyJkquuVpAz2hvoU/qReXvGcqX+2QvgqGFnXYy8tkjp1xtLio9hkF7C8DACD3om6tI9u+8cy9qwo/bxL3Q8M7pB2S2zBS8HbXaMQGAQgg96KNFBB99nEWT2kEc+3uR+Mg/xulOyyCFaNpcUjuPNhe65f4FwMaEHvRZvbj8b8wP4GVvVX2wYw8xzBFK4TSX4XBKGQAbE3rQd82D/Js4IpPn7UXVh514dmGmrYXCaHMBAIQeDEYzOf+dQac/dRbXS7kwXXlj+B+FqttcPmR4adpcAKAQQg+G5jwe5lV+vOwkjnkTfLCtN8r5Kdx5hvuBNpduOZYUgI0JPRiqpvLj90zD7PrgQPDBlgQe9IE2FwAYMaEHQ3cVwxV/rarqD9UfPxB8sImHCBQFHvTFtTYXABinV/Gw08ep2F0sIvZ7fJrFwtDAtSzi2NaL+LzPIwzZ69HPsCsH8fDq5A1WcRe/P2Z40DfnGf7uN20uTs7qj5l2GoBheRUPgF9G+r6exFcfvXMKx8Zuo+T4ND7/s3iIO+jpz9OF1/F58pniJZ/i92bpKtFDTZtL6jVP0+Zy4UPDCKTcSBVOASvR3sLY3baqP/4TJfufRtoGc2Y3kmc07SxzgQc9p82ln/zd6Q/tskBxhB7w3TJmgMxjcfprDGocUwjiKFse+xC/D1euDANxHm1aKTnNZTsp2+mE/9uxhgCKI/SA5y1ikTqmEGRPiwvhU3zmtbMwNE5zgd1J1SpsMD2wMqEHrO5xCNK0w3zIsGu4S2+VYY9aE3bMDUtmwG5jNlZq2lw2k/JvUR+H+5ciZZWH+xOwMqEHbK5ph2kGov5SVdVvsZC+6fl1Ve0xLvdxpPN/hB2MSK42F61i60v5N2mS8HsNjcAIKNIrbwt06vrRNPFZ6+uoR5f6JB4IPPwO1308fF06fpYRq0O+vxL/+AdOy9rIQ8JAwrG1m0lZxeT9WU2OijbKM/rPgdADdutxCHIci6njmJ9RsvNMfe/sxkPr83gl0IJ/NG0uZ4kvx1n8HgocV3ebcPNAC9JmVHqUR7hKbfSfA6EHpHXVaonZj/BjnnDw1zqOfTZ66ybar25bX0IOeNp5/L1L/Xf40kPiWhYJQw/vy2ZSXjeVHsDKhB6QT72Au4ivEgOQSbwexyw+776A63PbOl3FIhA2M4/fn5TzHLS5rMcw0/KlbOMV5AMrE3pAGdoByGFUgpwU8MqOhR4vWnhggUG4jd/l94l/GG0uq0t5jfo0g6sUqYMioQewMqe3QHluY9fx1zg+NKeZzwcwEheZTt4SLK8mdTDk/reelNer7yfkAYkJPaBci1b4kesGP7HwA0ZkHkN/UzpQMbaS1Dv77n3rSXm9VHkAaxF6QPkWsZj4I9MrtfADxiJXy1rq02P6KuUGgGHe60m5VtAOBqxF6AH9UZde/zfDLqSBbsCY5Gpz4edSPuzWFThT78lKZomHAAs9gLUIPaBfbmNxkTL42PcZAUYmR5sLP5f6hCrVHqtJfZ2cVAasRegB/XMbp7ukUsoRugCpLBL/nWU1Qo8ypbxOqrCAtQk9oJ8uE9/4VXsAY1P/nf3sXS/Ksqqqu4Qv6LX730/V1ad7Cb+fKg9gba9iN+OdS9c7Y/ujXy86rmI3wdTub+phe18Sfa991x0YoXn87Us5r4CXXSeuQDyOOS88bZ74ugg9gLW9yjipHFY1i8BjEjtvThP55jp2vLSfAOzGMh7q/nR9i1Hf+94mfDGnQo9nTc3zAPpAewulO41qhmaX7Ujo8S9Xib6Paw6M1ZU2l6Kkuu819twDnzVPXAXl9xDYiNCDUk2jquP9E69PZdJ3djwAds9pLmVJ/fBr3fG01MN+UwdewEAIPSjRfjzMnzzz2lR7fOeseoDdW2aYXcDzUj/8Wnf8aJ54gGllowfYlNCD0sziQf5ncyr0136zLOFFAIxA/aD9yRtdhBw7/qo9/i319bgzUB3YlNCDkjye3/GSgwxllQCMW33fuR/7RSjAMkOLi2qP73JUeVwm/n7AgAg9KMFL8ztech7/WwBIQZtLOVR75DHNVG1rngewMaEHuf1sfsdLJpL/ZLTRAHxT37M+uBbZXWUYLnsk9Pqn2inliS1VVPVobQE2JvQgp1Xnd7zktQVIEgamAnx3rs0lu2Wm3f+LEVeZHlZVdZbh+6ryALbyKnbat31oXNhxZ02nG7SzPOcidt7GuAugvxggvabN5Ytrn9XFhpWi22iqTI+HcQnXkmOt/+AZA9hWE3psm9re+IPEiqY7WKRMYhdgNsI2jP1E30elB8C/NW0ub12XbG5jDXqU+AU0VaZjWvtebFmZu833BdiK9hZS2mZ+x88cjPTGmKrSw0wPgB9pc8kvV/BwEe0eY3CcMdyzqQpsTehBKl3M7/iZkxFOVk9RXnuT4HsA9NFypG0OJbnMFDw1bS5Dn+9xmDF4+GSAKdAFoQcpnEbfc4pp32cjGmw6T3RNtbYAPK/+G/nO9ckq14bHwcCHbE4j8Eh9WkvDEcFAJ4Qe7FJzs+xqYOmqPo4k+DhN9H2EHgAvqx/O7lyjbHJVe1QxT2SILRjTaEnOMcejUuUBdEnowS7tZ5iq3hh68DFPuBC5TvR9APrM8el55awKOBlY8JE78KhUeQBdEnqwS7eZ50F8HOhNc5pwaOu9nRaAlWhzyStntUc1oOCjhMBDlQfQKaEHu5Y7dDgbYNlpyv7aIfcqA3RNm0teqdo+n3MSgUFfh5vuFxB4VKo8gK4JPdi1+ub5OfNVPokduP3Mr6ML9ULgdcLvJ/QAWI82l3yuCjhx7CjWPn07zjbFKXur+KDKA+ia0IMUcu+8VHETv+350YLzqFxJ5d48D4C11feaP1y2bEoInQ7i/tmXAOw84Sl7L3lQ5QHswquO/p3TSIhJZ9GjJHwRyf3bzK+jvpn/GZUnpz3bSbjIcP2GOI0eIIWLCNmPXO3kFjFbJeUmwVMmMVvsuOA1x2Hc63NXdzTq67Qs46UAQ9JV6HEQCTHpvOtZGn4eOx65dxGqaA+ZxaK09GvYHPubsqWlIfQA2Nw8qj5KuO+NzUVc/70Cfu4S1xzTeC25N6Pabqw7gF3R3kIqy8LKPCexC7QouPx0Hq8vR+BhcjrAdhZK9bOx5nhaE3YsCgs8HszCAXZJ6EFKVwUMNX1sL8pPF1FWWcLE9Vn0An/MuENotwVgexcFDNYcq+torS1Js+ZYRviQasB608ayiPCltOqjcxstwC4JPUhtnvkc/efUC5H3cdO9zDDwdNoqhf6SuQ/8xgBTgM7MYyeb9E4LPUK4qfz4O+77pzsIQA4jTKj//X/FSXYltlp9jnAQYGe6mukBq1pGoPBXoVdsEguDk1ikXkUAcLWD4Vr7UdVxnKmF5TlKTAG607S5vHdNszgufLbKQXw23sem0G18Xa8xtP6wdajAYfxnH2bJ3FtzACkIPcihvpm/iRLPkrUDkI+PFiO3EYKsWhExiwXJYeurhAFrjzkfH6B7F3EfKCngHotmjsafPfh59+Lr9ROnz9w92nyZFnTqyqaOndYCpCD0IJfLWACe9OgdaC9GntP0bvfxmELn4wPsTjOc2mku6V0VcnT+NvoecDz2JjaQAHbOTA9ymhc42HRbRz0NPKp4P+y4AOxGaSeKjM1pnExGfp8MTAdSEnqQ27zQIWNj8yl2wgDYnRJPMRuTUgebjsln4R+QmtCD3JbR5mIRks9dLAQB2D2nueRjzZHXncADyEHoQQksQvJ50NYCkJQ2l7ysOfK4i+tuvQEkJ/SgFM0i5MY7ktSxQWIAyWlzyWup4iYpgQeQldCDkjTBh0FjabxZ48hdALrloTuvOvDfV/GxcwIPIDuhByWqF4LvvDM79cbkdICsllFtRz5aXXZL4AEUQehBqc6rqvrdLthOCDwAylBX233wXmSlvXY3Pgk8gFIIPShZ3fN8aAemUwIPgLLUIf+99yQr7bXd+mBIOlASoQelW0TwYSdsO3XFzG8CD4DiOM2lHPPYHGAzD3H9HIMPFEXoQV+cxkO73bD1NT21hpYClEmbSznqzYH/Wm+srVlr2FwBivOqoxd0J9VNbjGyn7eKReFhfNbOCng9ffAprpcSU4Cyncdg0z3vU3a3sd64qKrqZOTXYhUf4vNrrQEUqavQY2kXmUSWcWO9jK8jF/5JD1Gme1XgawPgR02byxfXpgjL1n20Xm9Mxn5BnnAf18gzAFA07S301SLKKLW8/OhzVVX7Ag+A3rl2ZHtxruKeqv3o395FNYzAAyie0IO+u47FyBvhxz8//29RHq3EFKCfzp1aVpxla7bY2I+2rX/+X7WzAH3SVXsL5Na0u8zja0xtL/etlh++uUy0+zTG2TpDYodyO6mu3xh/z+YRYFOW66gyncd9d0zzV27iZ/Z3c3uuIVXc21T2JfLL169fZx30j97ETQBK0SxKhjyATNgBAPmMIfy4aW0sAfSS9haG6joWI/+pquqPgbW+1AuQ36OtxyIEAPK4bLXYDq3t5XO08ziGFug9lR6MyWGrZLhvuzL3MUztQksFABSpOVb/uKenvVhrAIMk9GCsDuMze1zw/I+7qFipd1huC3g9AMBqjltfJQcgDxF0XDn1DRgqoQd8M2t9HWZaoNxFuHEdX3ZZAKD/jltrjIMCfppmU+XKUE1gDIQe8LT9+Ko/19MIQvY7aou5i2PebiPYuLXoAIBRmFbfN1hSbLQ8PNpQuXXULDA2deixH3MOtrEw5IiReRzyNcFI46lFhWADAHisvbnS/mo814b78Kj9tVl7LFqbKgIOYNyqqvo/Z+sCtQEkpGEAAAAASUVORK5CYII=">
+                    </image>
+                  </defs>
+                </svg></div>
+            </a></div>
+        </div>
+      </div>
+    </div>
+    <div class="Navbar">
+      <div class="container">
+        <div class="row" style="width: 1200px;">
+          <div class="col-sm-6" style="height: 37%;"></div>
+          <div class="col-sm-6">
+            <div class="Navbar-right">
+              <div class="Visibility">
+                <div class="Navbar-favouritesCount" style="color: #7a4bff; "><a href="/2023/favourites"
+                    style="margin-right: 30px; margin-bottom: 10px;"><svg width="18" height="18" viewBox="0 0 18 18"
+                      fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M17.4751 3.80698C16.7599 2.41418 15.4264 1.44325 13.8812 1.19031C12.3361 0.937377 10.7626 1.43243 9.64061 2.52448L9.00011 3.11023L8.37986 2.54548C7.25994 1.43172 5.67115 0.92726 4.11386 1.19098C2.56561 1.43238 1.22912 2.40633 0.525114 3.80623C-0.426722 5.67153 -0.0594484 7.93861 1.43261 9.40798L8.46236 16.65C8.60357 16.7952 8.79754 16.8772 9.00011 16.8772C9.20269 16.8772 9.39665 16.7952 9.53786 16.65L16.5579 9.42148C18.056 7.95067 18.4273 5.67812 17.4751 3.80698Z"
+                        fill="currentColor"></path>
+                    </svg>
+  
+                    <span style="color: black; margin: 8px 2px 0px 10px; text-decoration: none; ">0</span>
+                  </a>
+                  <button class="Navbar-menuButton" style="background-color: white; margin: 5px;"
+                    aria-label="Open main menu"><svg id="menu-dropdown-svg" width="24" height="25" viewBox="0 0 24 25"
+                      fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path
+                        d="M0.5 3.75586C0.5 3.20357 0.947715 2.75586 1.5 2.75586H22.5C23.0523 2.75586 23.5 3.20357 23.5 3.75586V4.75586C23.5 5.30814 23.0523 5.75586 22.5 5.75586H1.5C0.947715 5.75586 0.5 5.30814 0.5 4.75586V3.75586Z"
+                        fill="currentColor"></path>
+                      <path
+                        d="M0.5 11.7559C0.5 11.2036 0.947715 10.7559 1.5 10.7559H22.5C23.0523 10.7559 23.5 11.2036 23.5 11.7559V12.7559C23.5 13.3081 23.0523 13.7559 22.5 13.7559H1.5C0.947715 13.7559 0.5 13.3081 0.5 12.7559V11.7559Z"
+                        fill="currentColor"></path>
+                      <path
+                        d="M0.5 19.7559C0.5 19.2036 0.947715 18.7559 1.5 18.7559H22.5C23.0523 18.7559 23.5 19.2036 23.5 19.7559V20.7559C23.5 21.3081 23.0523 21.7559 22.5 21.7559H1.5C0.947715 21.7559 0.5 21.3081 0.5 20.7559V19.7559Z"
+                        fill="currentColor"></path>
+                    </svg></button>
+                </div>
+              </div>
+            </div>
+  
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="pageTemplates">
+    <div class="Visibility">
+      <div class="Section">
+        <section>
+          <div class="Section-spacerBase"></div>
+          <div class="Section-children">
+            <div class="Container">
+              <div class="row">
+                <div class="col-sm-12" style="width: 66%; margin-left: 18%;">
+                  <div class="pageTemplates-page">
+                    <h1>Policy.nz for Schools</h1>
+                    <p class="pageTemplates-standfirst">We’ve worked with teachers and educators to create activity
+                      plans that help students learn about the values and policy trade-offs at the heart of the election.
+                    </p>
+                    <h3>Using Policy.nz as a tool for learning</h3>
+                    <p>“This is quite possibly the best website that we used in the last 4 years, it was extremely
+                      engaging and all students enjoyed being educated using this website.” — Year 7/8 teacher, Oaklands
+                      School, Christchurch</p>
+                    <p>Policy.nz is great for teaching students about election issues: it’s comprehensive, neutral,
+                      accessible, and easy to use. We’ve made it even easier for teachers to use Policy.nz as a tool for
+                      learning by creating a range of activity plans for adapting for your classrooms.</p>
+                    <h3>Policy.nz for Schools activity plans</h3>
+                    <p>Policy.nz for Schools activity plans are one-page resources that help teachers guide students
+                      through significant electoral issues, focussing on the values, priorities, and impacts that policies
+                      have on different groups of people and encouraging students to ask questions and challenge their
+                      assumptions.</p>
+                    <p>Each activity plan covers the background of an issue, linking students to reputable and
+                      student-friendly sources, and guides students to use the Policy.nz tool to explore and reflect on
+                      different election policies. Most plans are aimed at social studies or geography students, but some
+                      will be suitable for economics, science, and business studies.</p>
+                    <p>The local government resources include 18 activity plans across 15 topics. You can <a
+                        href="https://cdn.sanity.io/files/ubdwo62y/production/d7af7d8819a768383dd244b44841191fb0ca432e.pdf?dl">download
+                        all activity plans</a>, or download specific activity plans below:<br></p>
+                    <p></p>
+                    <p><a
+                        href="https://cdn.sanity.io/files/ubdwo62y/production/511b280130a2d79684dd9e1e9ed9a7d1be380ab8.pdf?dl">General
+                        resources for using Policy.nz</a></p>
+                    <p><a
+                        href="https://cdn.sanity.io/files/ubdwo62y/production/a25030aff1b3f823020ff26745661af7679bf898.pdf?dl">Jobs
+                        and employment</a></p>
+                    <p><a
+                        href="https://cdn.sanity.io/files/ubdwo62y/production/10ab99b44f4c2b81bfe90ffddc5c98b167aeb967.pdf?dl">Tax</a>
+                    </p>
+                    <p><a
+                        href="https://cdn.sanity.io/files/ubdwo62y/production/7ec96bfe63bf48632704078aaa21b9ad28bf452e.pdf?dl">Income
+                        support</a></p>
+                    <p><a
+                        href="https://cdn.sanity.io/files/ubdwo62y/production/fd655621f4b8616c559b5d5c772dbb22cf247233.pdf?dl">Wages
+                        and working conditions</a></p>
+                    <p><a
+                        href="https://cdn.sanity.io/files/ubdwo62y/production/7b5f84f71f601e3818d330d535bc09aba38e844c.pdf?dl">Climate
+                        change</a></p>
+                    <p><a
+                        href="https://cdn.sanity.io/files/ubdwo62y/production/0670e4c2a0ad734251c4e84e7a1ba475a48f4026.pdf?dl">Fresh
+                        water</a></p>
+                    <p><a
+                        href="https://cdn.sanity.io/files/ubdwo62y/production/2d2ca4dfdf7e4731738e408d2472d476ebdb2bfa.pdf?dl">Urban
+                        transport</a></p>
+                    <p><a
+                        href="https://cdn.sanity.io/files/ubdwo62y/production/867ff4f855967a23dd8b88f9dd4a1f1d68ce678a.pdf?dl">Regional
+                        development</a></p>
+                    <p><a
+                        href="https://cdn.sanity.io/files/ubdwo62y/production/be706dd6a78b2cac562669ba8cc1ef9401cfc31e.pdf?dl">Tourism</a>
+                    </p>
+                    <p><a
+                        href="https://cdn.sanity.io/files/ubdwo62y/production/41b9a10b7bbf27e9053ce63e4a38b8485210b499.pdf?dl">Housing
+                        affordability</a></p>
+                    <p><a
+                        href="https://cdn.sanity.io/files/ubdwo62y/production/9bd0355adee548d248d5035fbc10f0a57624dd8c.pdf?dl">International
+                        relations</a></p>
+                    <p><a
+                        href="https://cdn.sanity.io/files/ubdwo62y/production/274cb5506832a432a68510847a9e0da15dc8b45b.pdf?dl">Refugees</a>
+                    </p>
+                    <p><a
+                        href="https://cdn.sanity.io/files/ubdwo62y/production/1dfff3a2a9c4da24c34df64a9c8cc25de25f4281.pdf?dl">Immigration</a>
+                    </p>
+                    <p><a
+                        href="https://cdn.sanity.io/files/ubdwo62y/production/5819b670d29ca6b1dd99989b6296bb7e80509d1e.pdf?dl">Women</a>
+                    </p>
+                    <p><a
+                        href="https://cdn.sanity.io/files/ubdwo62y/production/7eac80dc15c8dbe3c3dacd3efcf10166edf16e27.pdf?dl">Rainbow
+                        community</a></p>
+                    <h3>Who are the activity plans for?</h3>
+                    <p>The activity plans are aimed at curriculum level 5, but are designed to be simplified or advanced
+                      to teach students from Year 7 to Year 13.</p>
+                    <p>Our activity plans help students learn about democracy, values, and policy trade-offs, and are
+                      designed to strengthen students’ ability to make value-based decisions and to understand why people
+                      make decisions that are different to their own.</p>
+                    <h3>Who made these activity plans?</h3>
+                    <p>The Policy.nz team worked with Michael Moore-Jones and Maria and Kimberley at the <a
+                        href="http://www.socialstudiesnz.org/">Aotearoa Social Studies Educators' Network</a> (ASSEN) to
+                      create these activity plans for the 2020 general election, and have updated them for the 2023
+                      general election. We also thank Mike Taylor of Taita College and Bronwyn Wood and Robin Averill of
+                      Te Herenga Waka Victoria University of Wellington for their comments.</p>
+                    <h3>Feedback</h3>
+                    <p>Have comments or feedback? Want to contribute an activity plan of your own? We’d love to hear from
+                      you! Get in touch at <a href="mailto:contact@policy.nz">contact@policy.nz</a>.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </div>
+    </div>
+  
+    <footer class="Footer">
+      <div class="Section-section--">
+        <section>
+          <div class="Section-spacerBase"></div>
+          <div class="Section-children">
+            <div class="Container">
+              <div class="row">
+                <div class="col-sm-12" style="background-color: white;">
+                  <div class="Visibility"><a href="https://vote.nz/" target="_blank" rel="noopener noreferrer"><img
+                        style="margin-right: 190px; height: 100px;" src="../ad_desktop.webp" alt=""></a>
+                  </div>
+                  <div class="Visibility"><a href="https://vote.nz/" target="_blank" rel="noopener noreferrer"></a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="Section-spacerBase"></div>
+        </section>
+      </div>
+      <div class="Section-section">
+        <section>
+          <div class="Section-spacerSmall"></div>
+          <div class="Section-children">
+            <div class="Container">
+              <div class="row" style="padding-left: 70px; padding-right: 70px;">
+                <div class="col-sm-12" style="flex-direction: column;">
+                  <p class="Footer-sponsorsTitle">With support from</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-12" style="padding-left: 150px; padding-right: 100px;">
+                  <div class="row" style="justify-content: center;">
+                    <div class="col-lg-3">
+                      <div class="Spacer-small"></div><a style="align-content:center"
+                        href="https://www.addysolutions.com/ " target="_blank" rel="noopener noreferrer nofollow"><img
+                          src="../addy_logo.webp" alt="" style="width: 200px;"></a>
+                      <div class="Spacer-small"></div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="Spacer-small"></div><a href="https://newsinitiative.withgoogle.com/" target="_blank"
+                        rel="noopener noreferrer nofollow"><img style="width: 200px;"
+                          src="../google_news_iniative_logo.webp" alt=""></a>
+                      <div class="Spacer-small"></div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="Spacer-small"></div><a href="https://www.minterellison.co.nz/" target="_blank"
+                        rel="noopener noreferrer nofollow"><img style="width: 200px;"
+                          src="../minter_ellison_rudd_watts.webp" alt=""></a>
+                      <div class="Spacer-small"></div>
+                    </div>
+                    <div class="col-lg-3">
+                      <div class="Spacer-small"></div><a href="https://www.wgtn.ac.nz/" target="_blank"
+                        rel="noopener noreferrer nofollow"><img style="width: 200px;" src="../vuw.webp"
+                          alt=""></a>
+                      <div class="Spacer-small"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="Section-spacerSmall"></div>
+        </section>
+      </div>
+      <div class="Section-section--TUSU">
+        <section>
+          <div class="Section-spacerSmall"></div>
+          <div class="Section-children" style="position: relative;">
+            <div class="Container">
+              <div class="row">
+                <div class="col-lg-10">
+                  <div class="row" style="flex-direction: row; flex-direction:row;">
+                    <div class="col-md-6" style="width: 50%;">
+                      <div class="row">
+                        <div class="col-sm-12" style="padding-left: 100px;">
+                          <p class="Footer-campaign">NZ Election 2023</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-sm-12" style="padding-left: 100px;">
+                          <div class="Footer-policyLogo"><svg xmlns="http://www.w3.org/2000/svg"
+                              style="height: 60; width: 272;" fill="none" viewBox="0 0 206 46">
+                              <path
+                                d="M151.312 36V32.1562L154.711 31.4531V15.2109L151.055 14.5078V10.6406H160.617L160.922 14.2969C161.766 13 162.812 11.9922 164.062 11.2734C165.328 10.5391 166.758 10.1719 168.352 10.1719C170.898 10.1719 172.891 10.9766 174.328 12.5859C175.781 14.1797 176.508 16.6875 176.508 20.1094V31.4531L179.906 32.1562V36H166.992V32.1562L170.109 31.4531V20.1562C170.109 18.3438 169.75 17.0625 169.031 16.3125C168.312 15.5469 167.242 15.1641 165.82 15.1641C164.758 15.1641 163.828 15.3984 163.031 15.8672C162.25 16.3203 161.602 16.9688 161.086 17.8125V31.4531L164.086 32.1562V36H151.312ZM182.906 36V32.1328L196.242 15.1641H188.836L188.109 19.4766H183.422V10.6406H203.906V14.7656L191.133 31.3828H199.078L200.016 26.8125H204.539V36H182.906Z"
+                                fill="currentColor"></path>
+                              <path
+                                d="M28.3986 13.1057C28.3986 16.3164 27.2888 18.8964 25.0692 20.8457C22.8496 22.7951 19.8183 23.774 15.9752 23.7823H10.3031V31.2246L13.9012 31.9126V35.9441H0V31.9126L3.57291 31.2246V7.14016L0 6.44796V2.39544H15.9752C19.8183 2.39544 22.8496 3.37431 25.0692 5.33205C27.2888 7.28979 28.3986 9.88099 28.3986 13.1057ZM21.681 13.1518C21.734 11.6836 21.2182 10.2515 20.2409 9.15383C19.2808 8.10225 17.8632 7.57645 15.9878 7.57645H10.3031V18.5887H15.9752C17.8506 18.5887 19.2682 18.0783 20.2283 17.0575C21.2042 15.9958 21.7217 14.5924 21.6684 13.1518H21.681ZM50.8311 14.0957C52.9135 16.4618 53.9547 19.5103 53.9547 23.2412V23.7236C53.9547 27.4685 52.9135 30.5212 50.8311 32.8816C48.7486 35.2421 45.8782 36.4196 42.22 36.414C38.5169 36.414 35.6241 35.2365 33.5417 32.8816C31.4592 30.5268 30.418 27.4741 30.418 23.7236V23.2412C30.4096 19.5299 31.4467 16.4856 33.5291 14.1083C35.6116 11.7311 38.4889 10.5424 42.1612 10.5424C45.8503 10.5424 48.736 11.7269 50.8185 14.0957H50.8311ZM47.2456 23.2412C47.2456 21.0317 46.8383 19.2264 46.0238 17.8252C45.2093 16.424 43.926 15.7248 42.1738 15.7276C40.4244 15.7276 39.1495 16.4268 38.349 17.8252C37.5485 19.2236 37.1482 21.0289 37.1482 23.2412V23.7236C37.1482 25.9974 37.5485 27.8153 38.349 29.1773C39.1495 30.5393 40.4398 31.2274 42.22 31.2413C43.9581 31.2413 45.2303 30.5491 46.0364 29.1647C46.8425 27.7803 47.2456 25.9624 47.2456 23.711V23.2412ZM66.0338 0H55.7055V4.05252L59.3036 4.74472V31.212L56.054 31.9V35.9315H69.2834V31.9L66.0338 31.212V0ZM81.2491 0H74.5315V5.03419H81.2491V0ZM81.2491 11.0081H70.9208V15.0648L74.5189 15.7528V31.212L71.2693 31.9V35.9315H84.4777V31.9L81.2491 31.212V11.0081ZM102.367 27.4112C102.391 27.9275 102.307 28.4432 102.12 28.9251C101.932 29.407 101.646 29.8444 101.28 30.2093C100.893 30.5661 100.44 30.8425 99.9453 31.0226C99.4509 31.2026 98.9256 31.2827 98.3999 31.2581C96.5862 31.2581 95.3182 30.5785 94.5961 29.2193C93.8739 27.86 93.5129 26.0673 93.5129 23.8411V23.1489C93.5129 20.9674 93.9047 19.1859 94.6884 17.8042C95.4722 16.4226 96.8171 15.7318 98.7232 15.7318C99.2958 15.7232 99.865 15.8199 100.403 16.0171C100.861 16.1857 101.287 16.4311 101.662 16.7429L102.771 20.636H108.229L108.136 13.9825C107.012 12.8555 105.649 11.9953 104.148 11.4654C102.406 10.8311 100.564 10.5184 98.7106 10.5424C94.8844 10.5424 91.937 11.7255 89.8686 14.0915C87.8001 16.4576 86.7673 19.4753 86.7701 23.1447V23.8369C86.7701 27.5202 87.7763 30.5365 89.7888 32.8858C91.8013 35.2351 94.6674 36.4098 98.3873 36.4098C101.293 36.4098 103.721 35.5624 105.672 33.8675C106.601 33.1042 107.341 32.1361 107.833 31.0393C108.326 29.9425 108.557 28.7466 108.51 27.5454L108.438 27.407L102.367 27.4112ZM125.165 11.0081V15.0648L127.978 15.5221L124.006 27.2937L123.868 27.2727L123.519 25.473L120.11 15.5221L122.898 15.0648V11.0081H110.697V15.0648L113.027 15.4298L120.933 35.9567L120.173 37.8445C119.875 38.6218 119.401 39.3196 118.788 39.8834C118.062 40.4728 117.139 40.7652 116.206 40.7014C116.006 40.6983 115.807 40.6829 115.609 40.6553L114.938 40.563L114.157 45.4671C114.833 45.6391 115.416 45.7692 115.92 45.8615C116.448 45.9561 116.983 46.0025 117.52 45.9999C119.949 45.9999 121.769 45.393 122.978 44.1792C124.236 42.8841 125.22 41.3489 125.871 39.6652L135.04 15.4088L137.37 15.0648V11.0081H125.165ZM145.234 28.5187C145.724 29.0088 146 29.6735 146 30.3666C146 31.0597 145.724 31.7245 145.234 32.2146L141.455 35.9651C141.431 35.9902 141.401 36.0102 141.369 36.0238C141.336 36.0374 141.302 36.0444 141.266 36.0444C141.231 36.0444 141.196 36.0374 141.164 36.0238C141.132 36.0102 141.102 35.9902 141.077 35.9651L137.299 32.1894C137.056 31.947 136.864 31.6593 136.733 31.3425C136.601 31.0258 136.534 30.6864 136.534 30.3436C136.534 30.0008 136.601 29.6613 136.733 29.3446C136.864 29.0279 137.056 28.7401 137.299 28.4977C137.541 28.2553 137.829 28.063 138.146 27.9318C138.463 27.8006 138.803 27.7331 139.146 27.7331C139.489 27.7331 139.829 27.8006 140.146 27.9318C140.463 28.063 140.751 28.2553 140.994 28.4977L141.254 28.7578L141.514 28.5019C141.757 28.2594 142.045 28.067 142.362 27.9357C142.679 27.8044 143.018 27.7369 143.361 27.7369C143.705 27.7369 144.044 27.8044 144.361 27.9357C144.678 28.067 144.966 28.2594 145.209 28.5019L145.234 28.5187Z"
+                                fill="currentColor"></path>
+                            </svg></div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <div class="col-md-6" style="width: 50%;">
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="Footer-footerLinks">
+                            <h3>Explore</h3>
+                            <ul>
+                              <li><a href="/2023/elections" style="text-decoration: none;">
+                                  <p>Browse all elections</p>
+                                </a></li>
+                              <li><a href="/2023/favourites" style="text-decoration: none;">
+                                  <p>Your favourites</p>
+                                </a></li>
+                              <li><a href="/2023/resources/for-schools" style="text-decoration: none;">
+                                  <p>Policy.nz for Schools</p>
+                                </a></li>
+                            </ul>
+                          </div>
+                        </div>
+                        <div class="col-md-6">
+                          <div class="Footer-footerLinks Footer-footerFinal">
+                            <h3>About</h3>
+                            <ul>
+                              <li><a href="/about" style="text-decoration: none;">
+                                  <p>About Policy</p>
+                                </a></li>
+                              <li><a href="/privacy-policy" style="text-decoration: none;">
+                                  <p>Privacy</p>
+                                </a></li>
+                              <li><a href="/how-to-vote" style="text-decoration: none;">
+                                  <p>How to vote</p>
+                                </a></li>
+                              <li><a href="/terms" style="text-decoration: none;">
+                                  <p>Terms</p>
+                                </a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="Section-spacerSmall"></div>
+        </section>
+      </div>
+      <div class="Footer-footer" style="height: 70px;">
+        <div class="Container">
+          <div class="row">
+            <div class="col-sm-12">
+              <div class="row">
+                <div class="col-md-6" style="padding-left: 150px;">
+                  <p>© 2023 Policy Limited</p>
+                  <div class="Visibility">
+                    <div class="Spacer-small"></div>
+                  </div>
+                </div>
+                <div class="col-md-6"><a class="custom-dbox-popup" href="https://donorbox.org/policy-2022">
+                    <div class="Button" style="display: flex; ">
+                      <div class="Button-iconWrapper"><svg width="18" height="18" viewBox="0 0 18 18" fill="none"
+                          style="display: flex; margin-top: 10px;" xmlns="http://www.w3.org/2000/svg">
+                          <path
+                            d="M17.4751 3.80698C16.7599 2.41418 15.4264 1.44325 13.8812 1.19031C12.3361 0.937377 10.7626 1.43243 9.64061 2.52448L9.00011 3.11023L8.37986 2.54548C7.25994 1.43172 5.67115 0.92726 4.11386 1.19098C2.56561 1.43238 1.22912 2.40633 0.525114 3.80623C-0.426722 5.67153 -0.0594484 7.93861 1.43261 9.40798L8.46236 16.65C8.60357 16.7952 8.79754 16.8772 9.00011 16.8772C9.20269 16.8772 9.39665 16.7952 9.53786 16.65L16.5579 9.42148C18.056 7.95067 18.4273 5.67812 17.4751 3.80698Z"
+                            fill="currentColor"></path>
+                        </svg><span class="Button-spacer"></span></div>
+                      <p style="margin-top: 8px; padding-left: 15px; font-weight: 600;">Donate</p>
+                    </div>
+                  </a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
+<!-- <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+  </head>
+  <body>
+    <h1>Hello, world!</h1>
+  </body>
+</html> -->
+
